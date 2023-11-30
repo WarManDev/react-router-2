@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containier {
+  width: 500px;
+  background-color: rgb(175, 175, 235);
+  padding: 5px;
+}
+
+/* .posts {
+  background-color: rgb(175, 175, 235);
+  
+} */
+
+.header-posts {
+  background-color: white;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.btn-posts {
+  padding: 3px 6px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(22, 22, 175, 0.651);
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.posts__item {
+  background-color: white;
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+
+.posts__item:last-child {
+  margin-bottom: 0;
+}
+
+.user__info {
+  display: flex;
+  align-items: center;
+}
+
+.user__info-photo {
+  width: 50px;
+  margin-right: 30px;
+}
+
+.user__info-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user__name h3 {
+  line-height: 1;
+}
+
+.user__status{
+  display: flex;
+}
+
+.user__status p {
+ margin-right: 10px;
+}
+
+.post__content {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.button {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.button button {
+  padding: 5px 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.delete {
+  background-color: red;
+}
+
+.add {
+  background-color: rgba(22, 22, 175, 0.651);
+}
+
+.postNew {
+  background-color: white;
+  padding: 5px;
+  text-align: right;
+  border-radius: 5px;
+}
+.postNew button {
+  padding: 5px 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(22, 22, 175, 0.651);
+}
+
+
+.postForm {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(22, 22, 175, 0.651);
+  border-bottom: 1px solid rgba(22, 22, 175, 0.651);
+  padding: 7px 0;
+  margin-bottom: 10px;
+}
+
+.postForm input {
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.postForm input:focus-visible {
+  outline: none;
+}
+
+.header-edit-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  cursor: pointer;
+  text-align: right;
+}
+
+.header-new-post {
+  justify-content: flex-end;
+}
+
+button {
+  cursor: pointer;
+}
